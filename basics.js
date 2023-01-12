@@ -1,5 +1,8 @@
-// Description: Basic example on using the nodejs stream 
-// file: basics.js
+/* 
+* Description: Basic example on using the nodejs stream. This example reads a large CSV file 
+* containing data on carbon dioxide emissions, organized country wise and counts the number of rows.
+* file: basics.js
+*/
 
 const fs = require('fs');
 const { parse } = require('csv-parse');
